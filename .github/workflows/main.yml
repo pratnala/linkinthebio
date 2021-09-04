@@ -15,4 +15,7 @@ jobs:
       - name: Auto commit minified files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Auto Minification"
+          commit_message: Auto Minification
+          commit_user_name: Pratyush Nalam
+          commit_user_email: code@pratyushnalam.com
+          commit_author: Pratyush Nalam <code@pratyushnalam.com>
