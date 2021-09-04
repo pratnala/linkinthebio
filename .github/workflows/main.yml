@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Auto Minify
-        uses: nizarmah/auto-minify@v2
+        uses: nizarmah/auto-minify@v2.1
         with:
           maxdepth: 1
       - name: Auto commit minified files
