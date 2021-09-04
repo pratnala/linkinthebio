@@ -12,8 +12,8 @@ Font extensions:
     font-family: 'Dubai';
 
     src: url('../fonts/DubaiW23-Regular.woff2') format('woff2'),
-        url('../fonts/DubaiW23-Regular.woff') format('woff'),
-        url('../fonts/DubaiW23-Regular.ttf') format('truetype');
+    url('../fonts/DubaiW23-Regular.woff') format('woff'),
+    url('../fonts/DubaiW23-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -21,8 +21,8 @@ Font extensions:
     font-weight: 300;
 
     src: url('../fonts/DubaiW23-Light.woff2') format('woff2'),
-        url('../fonts/DubaiW23-Light.woff') format('woff'),
-        url('../fonts/DubaiW23-Light.ttf') format('truetype');
+    url('../fonts/DubaiW23-Light.woff') format('woff'),
+    url('../fonts/DubaiW23-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -30,8 +30,8 @@ Font extensions:
     font-weight: 500;
 
     src: url('../fonts/DubaiW23-Medium.woff2') format('woff2'),
-        url('../fonts/DubaiW23-Medium.woff') format('woff'),
-        url('../fonts/DubaiW23-Medium.ttf') format('truetype');
+    url('../fonts/DubaiW23-Medium.woff') format('woff'),
+    url('../fonts/DubaiW23-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -39,18 +39,18 @@ Font extensions:
     font-weight: bold;
 
     src: url('../fonts/DubaiW23-Bold.woff2') format('woff2'),
-        url('../fonts/DubaiW23-Bold.woff') format('woff'),
-        url('../fonts/DubaiW23-Bold.ttf') format('truetype');
+    url('../fonts/DubaiW23-Bold.woff') format('woff'),
+    url('../fonts/DubaiW23-Bold.ttf') format('truetype');
 }
 
 body {
-    font-size: 15px;
     font-family: 'Dubai', sans-serif;
+    font-size: 15px;
 
     letter-spacing: 2px;
 
     color: #fff;
-    background-color: #000;
+    background-color: #2a2a2a;
 }
 
 img {
@@ -68,21 +68,52 @@ img {
 }
 
 .profile-name {
+    font-size: 30px;
+    font-weight: bold;
+
     padding: 30px;
 
     text-align: center;
 }
 
-.links {
-    display: block;
+.section-header {
+    font-size: 25px;
+    font-weight: 500;
 
-    width: 290px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+    text-align: center;
+}
+
+.link {
+    font-size: 20px;
+
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
 
     text-align: center;
+}
+
+.text-link {
+    display: block;
+
+    width: 290px;
+
+    border: 1px solid #fff;
+    border-width: 2px;
+    border-radius: 40px;
+}
+
+.profile-link {
+    display: inline-block;
+
+    width: 80px;
+    margin-bottom: 20px;
 
     border: 1px solid #fff;
     border-width: 2px;
