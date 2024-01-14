@@ -7,13 +7,14 @@ jobs:
   minify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
       - name: Auto Minify
-        uses: nizarmah/auto-minify@v2.1
+        uses: nizarmah/auto-minify@v2.1.1
         with:
           maxdepth: 2
-      - name: Auto commit minified files
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v5.0.0
         with:
           commit_message: Auto Minification
           commit_user_name: Pratyush Nalam
